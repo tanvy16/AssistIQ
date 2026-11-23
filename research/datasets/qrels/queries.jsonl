@@ -1,0 +1,30 @@
+{"query_id": "q1", "text": "How do I connect to the corporate VPN", "stratum": "lexical"}
+{"query_id": "q2", "text": "VPN tunnel keeps dropping what should I check", "stratum": "paraphrase"}
+{"query_id": "q3", "text": "How to join office wifi network", "stratum": "lexical"}
+{"query_id": "q4", "text": "Cannot authenticate to wireless SSID at work", "stratum": "paraphrase"}
+{"query_id": "q5", "text": "What is the password policy length", "stratum": "lexical"}
+{"query_id": "q6", "text": "Rules for creating a strong login secret", "stratum": "paraphrase"}
+{"query_id": "q7", "text": "How to enable MFA on my account", "stratum": "lexical"}
+{"query_id": "q8", "text": "Authenticator app enrollment steps", "stratum": "paraphrase"}
+{"query_id": "q9", "text": "Steps to connect printer by IP", "stratum": "lexical"}
+{"query_id": "q10", "text": "Add floor printer using TCP port", "stratum": "paraphrase"}
+{"query_id": "q11", "text": "How to configure Outlook on Windows", "stratum": "lexical"}
+{"query_id": "q12", "text": "Outlook keeps asking for credentials", "stratum": "paraphrase"}
+{"query_id": "q13", "text": "Procedure to report phishing", "stratum": "lexical"}
+{"query_id": "q14", "text": "Suspicious email with link what do I do", "stratum": "paraphrase"}
+{"query_id": "q15", "text": "Procedure for requesting a loaner laptop", "stratum": "lexical"}
+{"query_id": "q16", "text": "I need a temporary laptop while mine is repaired", "stratum": "paraphrase"}
+{"query_id": "q17", "text": "Approved way to install git", "stratum": "lexical"}
+{"query_id": "q18", "text": "How developers get version control tools installed", "stratum": "paraphrase"}
+{"query_id": "q19", "text": "Corporate VPN SSO profile name", "stratum": "lexical"}
+{"query_id": "q20", "text": "Remote access client configuration guide", "stratum": "paraphrase"}
+{"query_id": "q21", "text": "Wifi troubleshooting after failed login", "stratum": "paraphrase"}
+{"query_id": "q22", "text": "Minimum characters required for passwords", "stratum": "paraphrase"}
+{"query_id": "q23", "text": "Lost phone MFA recovery", "stratum": "paraphrase"}
+{"query_id": "q24", "text": "Install driver for network printer", "stratum": "paraphrase"}
+{"query_id": "q25", "text": "Modern authentication for mail client", "stratum": "paraphrase"}
+{"query_id": "q26", "text": "Forward phishing to security mailbox", "stratum": "lexical"}
+{"query_id": "q27", "text": "Collect loaner from IT desk", "stratum": "lexical"}
+{"query_id": "q28", "text": "Do not use unsigned git installers", "stratum": "lexical"}
+{"query_id": "q29", "text": "Check VPN Connected status", "stratum": "lexical"}
+{"query_id": "q30", "text": "Disable random MAC for corporate wireless", "stratum": "lexical"}

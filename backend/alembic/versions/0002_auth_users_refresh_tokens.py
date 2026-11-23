@@ -1,0 +1,85 @@
+"""Auth users and refresh_tokens tables.
+
+Revision ID: 0002_auth_users_refresh_tokens
+Revises: 0001_bootstrap
+Create Date: 2026-08-19
+
+"""
+
+from typing import Sequence, Union
+
+import sqlalchemy as sa
+from alembic import op
+from sqlalchemy.dialects import postgresql
+
+# revision identifiers, used by Alembic.
+revision: str = "0002_auth_users_refresh_tokens"
+down_revision: Union[str, None] = "0001_bootstrap"
+branch_labels: Union[str, Sequence[str], None] = None
+depends_on: Union[str, Sequence[str], None] = None
+
+user_role_enum = postgresql.ENUM(
+    "employee",
+    "agent",
+    "admin",
+    name="user_role",
+    create_type=False,
+)
+
+
+def upgrade() -> None:
+    user_role_enum.create(op.get_bind(), checkfirst=True)
+
+    op.create_table(
+        "users",
+        sa.Column("id", postgresql.UUID(as_uuid=True), nullable=False),
+        sa.Column("email", sa.String(length=320), nullable=False),
+        sa.Column("password_hash", sa.String(length=255), nullable=False),
+        sa.Column("role", user_role_enum, nullable=False),
+        sa.Column("is_active", sa.Boolean(), nullable=False, server_default=sa.text("true")),
+        sa.Column("display_name", sa.String(length=120), nullable=True),
+        sa.Column(
+            "created_at",
+            sa.DateTime(timezone=True),
+            server_default=sa.text("now()"),
+            nullable=False,
+        ),
+        sa.Column(
+            "updated_at",
+            sa.DateTime(timezone=True),
+            server_default=sa.text("now()"),
+            nullable=False,
+        ),
+        sa.PrimaryKeyConstraint("id"),
+        sa.UniqueConstraint("email"),
+    )
+    op.create_index("ix_users_email", "users", ["email"], unique=True)
+
+    op.create_table(
+        "refresh_tokens",
+        sa.Column("id", postgresql.UUID(as_uuid=True), nullable=False),
+        sa.Column("user_id", postgresql.UUID(as_uuid=True), nullable=False),
+        sa.Column("token_hash", sa.String(length=64), nullable=False),
+        sa.Column("expires_at", sa.DateTime(timezone=True), nullable=False),
+        sa.Column("revoked_at", sa.DateTime(timezone=True), nullable=True),
+        sa.Column(
+            "created_at",
+            sa.DateTime(timezone=True),
+            server_default=sa.text("now()"),
+            nullable=False,
+        ),
+        sa.Column("user_agent", sa.String(length=512), nullable=True),
+        sa.ForeignKeyConstraint(["user_id"], ["users.id"], ondelete="CASCADE"),
+        sa.PrimaryKeyConstraint("id"),
+    )
+    op.create_index("ix_refresh_tokens_token_hash", "refresh_tokens", ["token_hash"])
+    op.create_index("ix_refresh_tokens_user_id", "refresh_tokens", ["user_id"])
+
+
+def downgrade() -> None:
+    op.drop_index("ix_refresh_tokens_user_id", table_name="refresh_tokens")
+    op.drop_index("ix_refresh_tokens_token_hash", table_name="refresh_tokens")
+    op.drop_table("refresh_tokens")
+    op.drop_index("ix_users_email", table_name="users")
+    op.drop_table("users")
+    user_role_enum.drop(op.get_bind(), checkfirst=True)

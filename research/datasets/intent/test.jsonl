@@ -1,0 +1,51 @@
+{"id": "syn-0171-4607", "text": "I need access to Jira thanks", "intent": "software_access_request", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0419-8435", "text": "Any update on the ticket I opened thanks", "intent": "ticket_query", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0153-7286", "text": "I need to set a new password", "intent": "password_reset_request", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0631-4730", "text": "Invent a startup idea unrelated to IT", "intent": "unsupported", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0043-8231", "text": "Human assistance required for this issue thanks", "intent": "human_escalation", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0502-2128", "text": "Explain the remote work network procedure", "intent": "knowledge_query", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0545-9455", "text": "Are chat responses saved?", "intent": "general_query", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0485-8755", "text": "Steps to connect printer by IP", "intent": "knowledge_query", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0187-5359", "text": "I need Microsoft Office installed thanks", "intent": "software_access_request", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0467-8695", "text": "How do I map a network drive thanks", "intent": "knowledge_query", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0438-8665", "text": "Procedure for requesting a loaner laptop", "intent": "knowledge_query", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0079-9422", "text": "Speak to support lead now thanks", "intent": "human_escalation", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0091-5622", "text": "I forgot my password and cannot login thanks", "intent": "password_reset_request", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0342-6766", "text": "What is my ticket status", "intent": "ticket_query", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0599-8463", "text": "Is MFA mandatory for everyone? thanks", "intent": "general_query", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0465-8377", "text": "How do I map a network drive", "intent": "knowledge_query", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0329-8395", "text": "New ticket about Teams audio problems", "intent": "ticket_creation_request", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0058-3725", "text": "I already tried self-service I require a human", "intent": "human_escalation", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0311-6348", "text": "Submit ticket for application crash thanks", "intent": "ticket_creation_request", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0097-4830", "text": "Reset my corporate password", "intent": "password_reset_request", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0547-7409", "text": "Are chat responses saved? thanks", "intent": "general_query", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0071-8138", "text": "Escalate my case to management thanks", "intent": "human_escalation", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0347-6124", "text": "Show me my ticket number TCK-102 thanks", "intent": "ticket_query", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0247-7069", "text": "Can you install 7zip for archives thanks", "intent": "software_access_request", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0239-986", "text": "Admin privileges required to install a package thanks", "intent": "software_access_request", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0543-1132", "text": "What channels can I use for IT help? thanks", "intent": "general_query", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0286-1602", "text": "file a new ticket for VPN dropouts", "intent": "ticket_creation_request", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0081-4011", "text": "I need a password reset", "intent": "password_reset_request", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0619-9971", "text": "Cook a recipe for pasta", "intent": "unsupported", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0611-9220", "text": "Generate a marketing slogan", "intent": "unsupported", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0151-438", "text": "Please start the password reset workflow thanks", "intent": "password_reset_request", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0383-8276", "text": "Show open tickets for my account thanks", "intent": "ticket_query", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0005-9379", "text": "Please escalate this to a representative", "intent": "human_escalation", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0246-8846", "text": "Can you install 7zip for archives", "intent": "software_access_request", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0491-4244", "text": "How to check disk space on Windows thanks", "intent": "knowledge_query", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0309-8788", "text": "Submit ticket for application crash", "intent": "ticket_creation_request", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0302-9427", "text": "New ticket: cannot print to floor printer", "intent": "ticket_creation_request", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0577-4424", "text": "Which regions does IT cover?", "intent": "general_query", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0583-6080", "text": "Can I escalate after hours? thanks", "intent": "general_query", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0205-3898", "text": "I need vs code for backend development", "intent": "software_access_request", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0154-5427", "text": "I require to set a new password", "intent": "password_reset_request", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0051-7988", "text": "May I please speak to an operator thanks", "intent": "human_escalation", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0209-8484", "text": "Install Microsoft Visio for diagrams", "intent": "software_access_request", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0067-2869", "text": "Representative please this is urgent thanks", "intent": "human_escalation", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0197-5559", "text": "Please grant monitoring dashboard access", "intent": "software_access_request", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0191-2409", "text": "Install 7-Zip on my machine thanks", "intent": "software_access_request", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0387-6701", "text": "My ticket was updated yesterday what changed thanks", "intent": "ticket_query", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0435-2817", "text": "What is the password policy length thanks", "intent": "knowledge_query", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0363-9487", "text": "Has my ticket been assigned thanks", "intent": "ticket_query", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0279-7764", "text": "Create a support ticket for me thanks", "intent": "ticket_creation_request", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}
+{"id": "syn-0155-2619", "text": "I need to set a new password thanks", "intent": "password_reset_request", "stratum": "keyword_heavy", "source": "synthetic_assistiq_templates"}

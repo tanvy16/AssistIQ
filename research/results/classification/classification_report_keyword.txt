@@ -1,0 +1,14 @@
+                         precision    recall  f1-score   support
+
+          general_query     1.0000    0.8333    0.9091         6
+       human_escalation     0.8750    1.0000    0.9333         7
+        knowledge_query     0.4118    1.0000    0.5833         7
+ password_reset_request     1.0000    0.2857    0.4444         7
+software_access_request     1.0000    1.0000    1.0000         9
+ticket_creation_request     0.8333    0.8333    0.8333         6
+           ticket_query     1.0000    0.6667    0.8000         6
+            unsupported     0.0000    0.0000    0.0000         3
+
+               accuracy                         0.7647        51
+              macro avg     0.7650    0.7024    0.6879        51
+           weighted avg     0.8237    0.7647    0.7448        51

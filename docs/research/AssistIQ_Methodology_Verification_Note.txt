@@ -1,0 +1,60 @@
+AssistIQ Methodology Report — Verification Note
+================================================
+
+Files created
+-------------
+1) docs/research/AssistIQ_Methodology_Research_Report.docx
+2) docs/research/AssistIQ_Methodology_Architecture.png
+3) docs/research/AssistIQ_Methodology_Verification_Note.txt
+4) docs/research/_build_methodology_report.py  (builder script only; not application runtime)
+
+Application / source-code files modified
+----------------------------------------
+None.
+
+Implementation sources inspected
+--------------------------------
+- backend/app/agents/graphs/chat_graph.py
+- backend/app/agents/intents.py
+- backend/app/agents/nodes/detect_intent.py
+- backend/app/agents/nodes/route_request.py
+- backend/app/agents/nodes/retrieve_context.py
+- backend/app/agents/nodes/confidence_check.py
+- backend/app/agents/nodes/generate_answer.py
+- backend/app/agents/prompts.py
+- backend/app/agents/nodes/start_it_request.py
+- backend/app/agents/nodes/start_password_reset.py
+- backend/app/services/embedding_service.py
+- backend/app/adapters/chroma.py
+- backend/app/services/knowledge_base_service.py
+- backend/app/services/entity_extraction.py
+- backend/app/services/policy_service.py
+- backend/app/services/password_reset_service.py
+- backend/app/services/password_verification.py
+- backend/app/services/password_risk.py
+- backend/app/services/password_reset_policy.py
+- backend/app/execution/adapter.py
+- backend/app/iam/adapter.py
+- backend/app/core/config.py
+- backend/app/services/observability_service.py
+- backend/tests/test_observability.py
+
+Claims verified against implementation
+--------------------------------------
+- Keyword intent (ordered groups) and optional lightweight override only for knowledge_query
+- Deterministic INTENT_ROUTE_MAP values listed in the report
+- hash-v1, d=384, SHA-256 bag + L2
+- Chroma cosine HNSW, published filter, k=3, s=max(0,1-d)
+- Confidence on top score with 0.65 / 0.35
+- RAG prompt limits (6×400 history; ≤5×500 KB blocks; DATA framing)
+- IT mock execution; password mock IAM; TTL 30 minutes
+- Ticket chat path does not auto-create tickets
+- Observability IR metrics status "Not evaluated"
+
+Measurements still missing
+--------------------------
+- AssistIQ intent / routing / retrieval / scenario numeric results
+- Locked labelled datasets (intent, routing, qrels, scenarios)
+- AssistIQ-defined FCR, productivity, retention measurements
+
+Literature percentages cited in other project docs were NOT used as AssistIQ results.

@@ -1,0 +1,1268 @@
+{
+  "hash_v1_chroma_style": [
+    {
+      "query_id": "q1",
+      "ranked": [
+        "kb-vpn-c0",
+        "kb-phishing-c0",
+        "kb-wifi-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q2",
+      "ranked": [
+        "kb-vpn-c0",
+        "kb-mfa-c0",
+        "kb-printer-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q3",
+      "ranked": [
+        "kb-wifi-c0",
+        "kb-unrelated-c0",
+        "kb-vpn-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q4",
+      "ranked": [
+        "kb-password-policy-c0",
+        "kb-mfa-c0",
+        "kb-unrelated-c0"
+      ],
+      "metrics": {
+        "hit": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "mrr": 0.0
+      }
+    },
+    {
+      "query_id": "q5",
+      "ranked": [
+        "kb-unrelated-c0",
+        "kb-vpn-c0",
+        "kb-printer-c0"
+      ],
+      "metrics": {
+        "hit": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "mrr": 0.0
+      }
+    },
+    {
+      "query_id": "q6",
+      "ranked": [
+        "kb-email-c0",
+        "kb-password-policy-c0",
+        "kb-mfa-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 0.5
+      }
+    },
+    {
+      "query_id": "q7",
+      "ranked": [
+        "kb-unrelated-c0",
+        "kb-mfa-c0",
+        "kb-wifi-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 0.5
+      }
+    },
+    {
+      "query_id": "q8",
+      "ranked": [
+        "kb-mfa-c0",
+        "kb-password-policy-c0",
+        "kb-phishing-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q9",
+      "ranked": [
+        "kb-printer-c0",
+        "kb-mfa-c0",
+        "kb-email-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q10",
+      "ranked": [
+        "kb-printer-c0",
+        "kb-wifi-c0",
+        "kb-email-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q11",
+      "ranked": [
+        "kb-wifi-c0",
+        "kb-unrelated-c0",
+        "kb-email-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 0.3333333333333333
+      }
+    },
+    {
+      "query_id": "q12",
+      "ranked": [
+        "kb-email-c0",
+        "kb-git-c0",
+        "kb-phishing-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q13",
+      "ranked": [
+        "kb-unrelated-c0",
+        "kb-phishing-c0",
+        "kb-vpn-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 0.5
+      }
+    },
+    {
+      "query_id": "q14",
+      "ranked": [
+        "kb-phishing-c0",
+        "kb-email-c0",
+        "kb-printer-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q15",
+      "ranked": [
+        "kb-loaner-c0",
+        "kb-password-policy-c0",
+        "kb-mfa-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q16",
+      "ranked": [
+        "kb-password-policy-c0",
+        "kb-printer-c0",
+        "kb-mfa-c0"
+      ],
+      "metrics": {
+        "hit": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "mrr": 0.0
+      }
+    },
+    {
+      "query_id": "q17",
+      "ranked": [
+        "kb-vpn-c0",
+        "kb-unrelated-c0",
+        "kb-git-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 0.3333333333333333
+      }
+    },
+    {
+      "query_id": "q18",
+      "ranked": [
+        "kb-mfa-c0",
+        "kb-wifi-c0",
+        "kb-phishing-c0"
+      ],
+      "metrics": {
+        "hit": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "mrr": 0.0
+      }
+    },
+    {
+      "query_id": "q19",
+      "ranked": [
+        "kb-vpn-c0",
+        "kb-wifi-c0",
+        "kb-mfa-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q20",
+      "ranked": [
+        "kb-password-policy-c0",
+        "kb-loaner-c0",
+        "kb-printer-c0"
+      ],
+      "metrics": {
+        "hit": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "mrr": 0.0
+      }
+    },
+    {
+      "query_id": "q21",
+      "ranked": [
+        "kb-password-policy-c0",
+        "kb-email-c0",
+        "kb-wifi-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 0.3333333333333333
+      }
+    },
+    {
+      "query_id": "q22",
+      "ranked": [
+        "kb-password-policy-c0",
+        "kb-loaner-c0",
+        "kb-mfa-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q23",
+      "ranked": [
+        "kb-mfa-c0",
+        "kb-email-c0",
+        "kb-git-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q24",
+      "ranked": [
+        "kb-printer-c0",
+        "kb-git-c0",
+        "kb-wifi-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q25",
+      "ranked": [
+        "kb-mfa-c0",
+        "kb-email-c0",
+        "kb-password-policy-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 0.5
+      }
+    },
+    {
+      "query_id": "q26",
+      "ranked": [
+        "kb-phishing-c0",
+        "kb-unrelated-c0",
+        "kb-mfa-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q27",
+      "ranked": [
+        "kb-loaner-c0",
+        "kb-git-c0",
+        "kb-printer-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q28",
+      "ranked": [
+        "kb-git-c0",
+        "kb-phishing-c0",
+        "kb-password-policy-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q29",
+      "ranked": [
+        "kb-vpn-c0",
+        "kb-mfa-c0",
+        "kb-printer-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q30",
+      "ranked": [
+        "kb-wifi-c0",
+        "kb-git-c0",
+        "kb-password-policy-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    }
+  ],
+  "bm25": [
+    {
+      "query_id": "q1",
+      "ranked": [
+        "kb-vpn-c0",
+        "kb-phishing-c0",
+        "kb-git-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q2",
+      "ranked": [
+        "kb-vpn-c0",
+        "kb-git-c0",
+        "kb-unrelated-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q3",
+      "ranked": [
+        "kb-wifi-c0",
+        "kb-vpn-c0",
+        "kb-unrelated-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q4",
+      "ranked": [
+        "kb-vpn-c0",
+        "kb-wifi-c0",
+        "kb-password-policy-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 0.5
+      }
+    },
+    {
+      "query_id": "q5",
+      "ranked": [
+        "kb-unrelated-c0",
+        "kb-vpn-c0",
+        "kb-git-c0"
+      ],
+      "metrics": {
+        "hit": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "mrr": 0.0
+      }
+    },
+    {
+      "query_id": "q6",
+      "ranked": [
+        "kb-git-c0",
+        "kb-email-c0",
+        "kb-password-policy-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 0.3333333333333333
+      }
+    },
+    {
+      "query_id": "q7",
+      "ranked": [
+        "kb-mfa-c0",
+        "kb-wifi-c0",
+        "kb-email-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q8",
+      "ranked": [
+        "kb-mfa-c0",
+        "kb-git-c0",
+        "kb-unrelated-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q9",
+      "ranked": [
+        "kb-printer-c0",
+        "kb-vpn-c0",
+        "kb-unrelated-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q10",
+      "ranked": [
+        "kb-printer-c0",
+        "kb-wifi-c0",
+        "kb-unrelated-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q11",
+      "ranked": [
+        "kb-email-c0",
+        "kb-wifi-c0",
+        "kb-unrelated-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q12",
+      "ranked": [
+        "kb-git-c0",
+        "kb-phishing-c0",
+        "kb-email-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 0.3333333333333333
+      }
+    },
+    {
+      "query_id": "q13",
+      "ranked": [
+        "kb-unrelated-c0",
+        "kb-vpn-c0",
+        "kb-phishing-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 0.3333333333333333
+      }
+    },
+    {
+      "query_id": "q14",
+      "ranked": [
+        "kb-phishing-c0",
+        "kb-git-c0",
+        "kb-email-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q15",
+      "ranked": [
+        "kb-loaner-c0",
+        "kb-git-c0",
+        "kb-password-policy-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q16",
+      "ranked": [
+        "kb-loaner-c0",
+        "kb-unrelated-c0",
+        "kb-git-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q17",
+      "ranked": [
+        "kb-git-c0",
+        "kb-vpn-c0",
+        "kb-printer-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q18",
+      "ranked": [
+        "kb-git-c0",
+        "kb-unrelated-c0",
+        "kb-loaner-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q19",
+      "ranked": [
+        "kb-vpn-c0",
+        "kb-email-c0",
+        "kb-wifi-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q20",
+      "ranked": [
+        "kb-vpn-c0",
+        "kb-git-c0",
+        "kb-unrelated-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q21",
+      "ranked": [
+        "kb-email-c0",
+        "kb-wifi-c0",
+        "kb-password-policy-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 0.5
+      }
+    },
+    {
+      "query_id": "q22",
+      "ranked": [
+        "kb-password-policy-c0",
+        "kb-git-c0",
+        "kb-unrelated-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q23",
+      "ranked": [
+        "kb-mfa-c0",
+        "kb-email-c0",
+        "kb-unrelated-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q24",
+      "ranked": [
+        "kb-printer-c0",
+        "kb-vpn-c0",
+        "kb-git-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q25",
+      "ranked": [
+        "kb-git-c0",
+        "kb-email-c0",
+        "kb-vpn-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 0.5
+      }
+    },
+    {
+      "query_id": "q26",
+      "ranked": [
+        "kb-phishing-c0",
+        "kb-unrelated-c0",
+        "kb-mfa-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q27",
+      "ranked": [
+        "kb-loaner-c0",
+        "kb-git-c0",
+        "kb-printer-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q28",
+      "ranked": [
+        "kb-git-c0",
+        "kb-phishing-c0",
+        "kb-password-policy-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q29",
+      "ranked": [
+        "kb-vpn-c0",
+        "kb-git-c0",
+        "kb-unrelated-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q30",
+      "ranked": [
+        "kb-wifi-c0",
+        "kb-git-c0",
+        "kb-email-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    }
+  ],
+  "tfidf_cosine": [
+    {
+      "query_id": "q1",
+      "ranked": [
+        "kb-vpn-c0",
+        "kb-phishing-c0",
+        "kb-unrelated-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q2",
+      "ranked": [
+        "kb-vpn-c0",
+        "kb-git-c0",
+        "kb-unrelated-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q3",
+      "ranked": [
+        "kb-wifi-c0",
+        "kb-vpn-c0",
+        "kb-unrelated-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q4",
+      "ranked": [
+        "kb-vpn-c0",
+        "kb-unrelated-c0",
+        "kb-wifi-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 0.3333333333333333
+      }
+    },
+    {
+      "query_id": "q5",
+      "ranked": [
+        "kb-unrelated-c0",
+        "kb-vpn-c0",
+        "kb-git-c0"
+      ],
+      "metrics": {
+        "hit": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "mrr": 0.0
+      }
+    },
+    {
+      "query_id": "q6",
+      "ranked": [
+        "kb-git-c0",
+        "kb-email-c0",
+        "kb-unrelated-c0"
+      ],
+      "metrics": {
+        "hit": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "mrr": 0.0
+      }
+    },
+    {
+      "query_id": "q7",
+      "ranked": [
+        "kb-mfa-c0",
+        "kb-unrelated-c0",
+        "kb-wifi-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q8",
+      "ranked": [
+        "kb-mfa-c0",
+        "kb-git-c0",
+        "kb-unrelated-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q9",
+      "ranked": [
+        "kb-printer-c0",
+        "kb-vpn-c0",
+        "kb-unrelated-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q10",
+      "ranked": [
+        "kb-printer-c0",
+        "kb-wifi-c0",
+        "kb-unrelated-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q11",
+      "ranked": [
+        "kb-email-c0",
+        "kb-wifi-c0",
+        "kb-unrelated-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q12",
+      "ranked": [
+        "kb-git-c0",
+        "kb-email-c0",
+        "kb-phishing-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 0.5
+      }
+    },
+    {
+      "query_id": "q13",
+      "ranked": [
+        "kb-phishing-c0",
+        "kb-unrelated-c0",
+        "kb-vpn-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q14",
+      "ranked": [
+        "kb-phishing-c0",
+        "kb-email-c0",
+        "kb-git-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q15",
+      "ranked": [
+        "kb-loaner-c0",
+        "kb-git-c0",
+        "kb-unrelated-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q16",
+      "ranked": [
+        "kb-loaner-c0",
+        "kb-unrelated-c0",
+        "kb-git-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q17",
+      "ranked": [
+        "kb-vpn-c0",
+        "kb-git-c0",
+        "kb-unrelated-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 0.5
+      }
+    },
+    {
+      "query_id": "q18",
+      "ranked": [
+        "kb-git-c0",
+        "kb-unrelated-c0",
+        "kb-loaner-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q19",
+      "ranked": [
+        "kb-vpn-c0",
+        "kb-email-c0",
+        "kb-wifi-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q20",
+      "ranked": [
+        "kb-vpn-c0",
+        "kb-git-c0",
+        "kb-unrelated-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q21",
+      "ranked": [
+        "kb-unrelated-c0",
+        "kb-email-c0",
+        "kb-wifi-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 0.3333333333333333
+      }
+    },
+    {
+      "query_id": "q22",
+      "ranked": [
+        "kb-password-policy-c0",
+        "kb-git-c0",
+        "kb-unrelated-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q23",
+      "ranked": [
+        "kb-mfa-c0",
+        "kb-email-c0",
+        "kb-unrelated-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q24",
+      "ranked": [
+        "kb-printer-c0",
+        "kb-vpn-c0",
+        "kb-git-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q25",
+      "ranked": [
+        "kb-email-c0",
+        "kb-vpn-c0",
+        "kb-git-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q26",
+      "ranked": [
+        "kb-phishing-c0",
+        "kb-unrelated-c0",
+        "kb-vpn-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q27",
+      "ranked": [
+        "kb-loaner-c0",
+        "kb-git-c0",
+        "kb-phishing-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q28",
+      "ranked": [
+        "kb-git-c0",
+        "kb-phishing-c0",
+        "kb-password-policy-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q29",
+      "ranked": [
+        "kb-vpn-c0",
+        "kb-printer-c0",
+        "kb-unrelated-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "query_id": "q30",
+      "ranked": [
+        "kb-wifi-c0",
+        "kb-git-c0",
+        "kb-email-c0"
+      ],
+      "metrics": {
+        "hit": 1.0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      }
+    }
+  ]
+}

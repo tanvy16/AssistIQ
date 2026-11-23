@@ -1,0 +1,21 @@
+{
+  "dataset_type": "synthetic_research",
+  "seed": 42,
+  "intent_counts": {
+    "human_escalation": 43,
+    "password_reset_request": 45,
+    "software_access_request": 57,
+    "ticket_creation_request": 44,
+    "ticket_query": 40,
+    "knowledge_query": 50,
+    "general_query": 40,
+    "unsupported": 20
+  },
+  "n_intent": 339,
+  "n_train": 237,
+  "n_val": 51,
+  "n_test": 51,
+  "n_chunks": 10,
+  "n_queries": 30,
+  "warning": "SYNTHETIC labels generated for reproducible AssistIQ-shaped evaluation. Not production user data. Not a public IT ticket corpus."
+}

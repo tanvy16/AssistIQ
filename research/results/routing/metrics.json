@@ -1,0 +1,50 @@
+{
+  "intent_plus_route_map": {
+    "method": "intent_plus_route_map",
+    "result_type": "MEASURED",
+    "n_test": 51,
+    "route_accuracy": 0.7843137254901961,
+    "macro_f1": 0.6620971620971621,
+    "per_route_recall": {
+      "escalate": 1.0,
+      "handle_unsupported": 0.0,
+      "retrieve_context": 0.9230769230769231,
+      "retrieve_ticket_context": 0.8333333333333334,
+      "start_it_request": 1.0,
+      "start_password_reset": 0.2857142857142857
+    },
+    "false_automation_rate": 0.0
+  },
+  "direct_tfidf_svm_route": {
+    "method": "direct_tfidf_svm_route",
+    "result_type": "MEASURED",
+    "n_test": 51,
+    "route_accuracy": 0.9215686274509803,
+    "macro_f1": 0.8736111111111112,
+    "per_route_recall": {
+      "escalate": 1.0,
+      "handle_unsupported": 0.3333333333333333,
+      "retrieve_context": 1.0,
+      "retrieve_ticket_context": 1.0,
+      "start_it_request": 0.7777777777777778,
+      "start_password_reset": 1.0
+    },
+    "false_automation_rate": 0.0
+  },
+  "oracle_intent_plus_map": {
+    "method": "oracle_intent_plus_map",
+    "result_type": "MEASURED",
+    "n_test": 51,
+    "route_accuracy": 1.0,
+    "macro_f1": 1.0,
+    "per_route_recall": {
+      "escalate": 1.0,
+      "handle_unsupported": 1.0,
+      "retrieve_context": 1.0,
+      "retrieve_ticket_context": 1.0,
+      "start_it_request": 1.0,
+      "start_password_reset": 1.0
+    },
+    "false_automation_rate": 0.0
+  }
+}
